@@ -66,7 +66,7 @@ https://www.speedscope.app/ is hosted on GitHub pages, and is published via push
 to the `gh-pages` branch. The `gh-pages` branch has totally different contents than
 other branches of this repository: https://github.com/jlfwong/speedscope/tree/gh-pages.
 
-It's populated by a deploy script which is invoked by running `npm run deploy` script. This populate a directory with assets pulled from npm, and
+It's populated by a deploy script which is invoked by running `npm run deploy` script. This populates a directory with assets pulled from npm, and
 boot a local server for you to test the compiled assets. Please do not skip
 the manual testing in this step.
 
