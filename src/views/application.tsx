@@ -456,14 +456,8 @@ export class Application extends StatelessComponent<ApplicationProps> {
       <div className={css(style.landingContainer)}>
         <div className={css(style.landingMessage)}>
           <p className={css(style.landingP)}>
-            👋 Hi there! Welcome to 🔬speedscope, an interactive{' '}
-            <a
-              className={css(style.link)}
-              href="http://www.brendangregg.com/FlameGraphs/cpuflamegraphs.html"
-            >
-              flamegraph
-            </a>{' '}
-            visualizer. Use it to help you make your software faster.
+            👋 Hi there! Welcome to 🔬speedscope, an interactive flamegraph visualizer.
+            Use it to help you make your software faster.
           </p>
           {canUseXHR ? (
             <p className={css(style.landingP)}>
@@ -497,7 +491,7 @@ export class Application extends StatelessComponent<ApplicationProps> {
             See the{' '}
             <a
               className={css(style.link)}
-              href="https://github.com/jlfwong/speedscope#usage"
+              href="https://github.com/fpaupier/speedscope#usage"  // FIXME: use local repo
               target="_blank"
             >
               documentation
@@ -511,7 +505,7 @@ export class Application extends StatelessComponent<ApplicationProps> {
             <a
               className={css(style.link)}
               target="_blank"
-              href="https://github.com/jlfwong/speedscope/issues"
+              href="https://github.com/fpaupier/speedscope/issues"  // FIXME: use local repo
             >
               report any issues on GitHub
             </a>

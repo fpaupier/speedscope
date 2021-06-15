@@ -182,7 +182,7 @@ function ToolbarRightContent(props: ToolbarProps) {
   const help = (
     <div className={css(style.toolbarTab)}>
       <a
-        href="https://github.com/jlfwong/speedscope#usage"
+        href="https://github.com/fpaupier/speedscope#usage" // FIXME: use local repo
         className={css(style.noLinkStyle)}
         target="_blank"
       >
